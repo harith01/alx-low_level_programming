@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
+
+
 /**
  * main - Entry point
  * Descriptio:
@@ -13,5 +15,6 @@ int main(void)
 	{
 		putchar(alpha);
 	}
+	putchar("\n")
 	return (0);
 }
