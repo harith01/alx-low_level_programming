@@ -4,10 +4,10 @@
 /* more headers goes there */
 
 /**
-* main - Entry point
-* Description:
-* Returns: Always 0 (Success)
-*/
+ * main - Entry point
+ * Description:
+ * Returns: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
