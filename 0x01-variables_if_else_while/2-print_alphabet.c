@@ -11,7 +11,7 @@
 int main(void)
 {
 	int alpha;
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for (alpha = 97; alpha <= 122; alpha++)
 	{
 		putchar(alpha);
 	}
