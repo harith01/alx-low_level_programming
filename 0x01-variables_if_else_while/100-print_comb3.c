@@ -10,7 +10,7 @@ int main(void)
 	int digit1;
 	int digit2;
 
-	digit1 = 0;
+	digit1 = '0';
 	while (digit1 <= '8')
 	{
 		for (digit2 = digit1 + 1; digit2 <= '9'; digit2++)
@@ -22,7 +22,7 @@ int main(void)
 				putchar(44);
 				putchar(32);
 			}
-			
+
 		}
 		digit1++;
 	}
