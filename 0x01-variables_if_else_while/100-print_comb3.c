@@ -21,12 +21,14 @@ int main(void)
 			{
 				continue;
 			}
-			else {
+			else
+			{
 				putchar(44);
 				putchar(32);
 			}
 		}
 		digit1++;
 	}
+	putchar('\n');
 	return (0);
 }
