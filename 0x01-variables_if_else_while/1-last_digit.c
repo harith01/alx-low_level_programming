@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * main - Entry point
+ * Main - Entry point
  * Description: Last digit of a number
  * Returns: Always 0 (Success)
  */
