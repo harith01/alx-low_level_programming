@@ -12,11 +12,12 @@ int main(void)
 	int digit3;
 
 	digit1 = '0';
-	while (digit1 < '7')
+	digit2 = '1';
+	while (digit1 <= '7')
 	{
-		for (digit2 = digit1 + 1; digit2 <= '8'; digit2++)
+		while (digit2 <= '8')
 		{
-			for (digit3 = digit1 + 2; digit3 <= '9'; digit3++)
+			for (digit3 = digit2 + 1; digit3 <= '9'; digit3++)
 			{
 				putchar(digit1);
 				putchar(digit2);
@@ -29,6 +30,7 @@ int main(void)
 					putchar(32);
 				}
 			}
+			digit2++;
 		}
 		digit1++;
 	}
