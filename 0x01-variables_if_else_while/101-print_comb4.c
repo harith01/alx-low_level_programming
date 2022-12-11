@@ -12,9 +12,10 @@ int main(void)
 	int digit3;
 
 	digit1 = '0';
-	digit2 = '1';
+
 	while (digit1 <= '7')
 	{
+		digit2 = digit1 + 1;
 		while (digit2 <= '8')
 		{
 			for (digit3 = digit2 + 1; digit3 <= '9'; digit3++)
