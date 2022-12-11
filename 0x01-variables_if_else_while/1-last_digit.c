@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /**
- * Main - Entry point
+ * main - Entry point
  * Description: Last digit of a number
- * Returns: Always 0 (Success)
+ * return: Always 0 (Success)
  */
 int main(void)
 {
