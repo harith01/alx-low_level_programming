@@ -14,5 +14,6 @@ int main(void)
 		if (alpha != 'q' || alpha != 'e')
 			putchar(alpha);
 	}
-	putchar("\n");
+	putchar('\n');
+	return (0);
 }
