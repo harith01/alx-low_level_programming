@@ -3,6 +3,7 @@
 /**
  * _islower - check if alphabet is lower case
  * Description: check is c is lowercase
+ * @c: letter being checked
  * Return: 1 if lowercase, 0 otherwise
  */
 
