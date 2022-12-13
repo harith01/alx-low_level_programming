@@ -1,3 +1,4 @@
+#include <main.h>
 /**
  * print_alphabet - function
  * Description: print a-z
