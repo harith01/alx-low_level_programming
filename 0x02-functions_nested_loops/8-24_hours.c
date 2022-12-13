@@ -26,6 +26,7 @@ void jack_bauer(void)
 					_putchar(58);
 					_putchar(min_1);
 					_putchar(min_2);
+					_putchar('\n');
 					min_2++;
 				}
 				min_1++;
