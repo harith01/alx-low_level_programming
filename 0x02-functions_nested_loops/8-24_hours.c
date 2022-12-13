@@ -13,13 +13,13 @@ void jack_bauer(void)
 
 	while (hour_1 < '3')
 	{
-		int hour_2 = 0;	
+		int hour_2 = '0';	
 		while (hour_2 < '4')
 		{
-			int min_1 = 0;
+			int min_1 = '0';
 			while (min_1 < '6')
 			{
-				int min_2 = 0;
+				int min_2 = '0';
 				while (min_2 <= '9')
 				{
 					_putchar(hour_1);
