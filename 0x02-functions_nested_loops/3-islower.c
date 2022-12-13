@@ -2,7 +2,7 @@
 
 /**
  * _islower - check if alphabet is lower case
- *
+ * Description: check is c is lowercase
  * Return: 1 if lowercase, 0 otherwise
  */
 
