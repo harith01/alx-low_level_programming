@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - prints every minute of the day of JB
- * 
+ *
  * Return: void
  */
 
@@ -13,20 +13,25 @@ void jack_bauer(void)
 
 	while (hour_1 < '3')
 	{
-		int hour_2 = '0';	
-		while (hour_2 < '4')
+		int hour_2 = '0';
+
+		while (hour_2 < '9')
 		{
+			if (hour_1 == '2' && hour_2 == '4')
+				break;
 			int min_1 = '0';
+
 			while (min_1 < '6')
 			{
 				int min_2 = '0';
+
 				while (min_2 <= '9')
 				{
-					_putchar(hour_1 + '0');
-					_putchar(hour_2 + '0');
+					_putchar(hour_1);
+					_putchar(hour_2);
 					_putchar(58);
-					_putchar(min_1 + '0');
-					_putchar(min_2 + '0');
+					_putchar(min_1);
+					_putchar(min_2);
 					_putchar('\n');
 					min_2++;
 				}
