@@ -15,7 +15,7 @@ void jack_bauer(void)
 
 	while (hour_1 < '3')
 	{
-	        hour_2 = '0';
+		hour_2 = '0';
 
 		while (hour_2 <= '9')
 		{
