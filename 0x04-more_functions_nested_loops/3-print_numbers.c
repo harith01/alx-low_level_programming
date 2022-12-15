@@ -8,9 +8,9 @@
 
 void print_numbers(void)
 {
-	char i = '0';
+	int i = 48;
 
-	while (i < '10')
+	while (i < 58)
 	{
 		_putchar(i);
 		i++;
