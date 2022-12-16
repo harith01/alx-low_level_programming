@@ -9,6 +9,7 @@
 void print_diagonal(int n)
 {
 	int s;
+
 	if (n <= 0)
 	{
 		_putchar(10);
@@ -25,3 +26,4 @@ void print_diagonal(int n)
 			_putchar(10);
 		}
 	}
+}
