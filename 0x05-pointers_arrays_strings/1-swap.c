@@ -1,5 +1,5 @@
 /**
- * swap_int(int *a, int *b) - Swap the values of two ints
+ * swap_int - swap the values of two ints
  * @a: first int
  * @b: second int
  * Return: Nothing.
