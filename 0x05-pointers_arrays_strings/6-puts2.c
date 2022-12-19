@@ -16,12 +16,12 @@ void puts2(char *str)
 	{
 		i++;
 	}
-	len = i -1;
+	len = i - 1;
 
 	while (c < len)
 	{
 		_putchar(str[c]);
-		c = c + 2;
+		c++;
 	}
 	_putchar(10);
 }
