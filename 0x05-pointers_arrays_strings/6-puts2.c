@@ -21,7 +21,7 @@ void puts2(char *str)
 	while (c < len)
 	{
 		_putchar(str[c]);
-		c++;
+		c = c + 2;
 	}
 	_putchar(10);
 }
