@@ -19,7 +19,7 @@ void rev_string(char *s)
 
 	while (len > i)
 	{
-		swap_char(*(s + len), *(s + i));
+		swap_char(s + len, s + i);
 		i++;
 		len--;
 	}
