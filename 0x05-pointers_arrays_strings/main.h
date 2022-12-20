@@ -7,3 +7,5 @@ void print_rev(char *s);
 void puts2(char *str);
 void puts_half(char *str);
 char *_strcpy(char *dest, char *src);
+void swap_char(char *a, char *b);
+void rev_string(char *s);
