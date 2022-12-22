@@ -38,5 +38,5 @@ int _strlen(char *str)
 	{
 		i++;
 	}
-	retun (i);
+	return (i);
 }
