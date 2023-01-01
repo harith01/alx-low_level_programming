@@ -20,7 +20,7 @@ char *leet(char *s)
 		k = 0;
 		while (l[j])
 		{
-			if (s[i] == l[0])
+			if (s[i] == l[j])
 			{
 				k = j;
 				s[i] = e[k];
