@@ -5,6 +5,7 @@
 * @s: memory area
 * @b: the constant
 * @n: number of first bytes to be filled
+* Return: Filled memory
 */
 
 char *_memset(char *s, char b, unsigned int n)
