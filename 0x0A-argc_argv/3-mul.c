@@ -17,13 +17,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		for (i = 1; i < 3; i++)
-		{
-			mul *= atoi(argv[i]);
-		}
-		printf("%d\n", mul);
-	}
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
