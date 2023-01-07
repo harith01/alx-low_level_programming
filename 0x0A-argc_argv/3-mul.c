@@ -6,24 +6,25 @@
  * main - multiply two numbers
  * @argc: argument count
  * @argv: argument vector
- * Return: Always 0
+ * Return: 1, if it does not receive 2 arguments, 0 otherwise.
  */
 
 int main(int argc, char *argv[])
 {
-	int mul = 1, i;
+	int i, mul = 1;
 
-	if (argc <= 2)
+	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-
-	for (i = 1; i < 3; i++)
+	else
 	{
-		mul *= atoi(argv[i]);
+		for (i = 1; i < 3; i++)
+		{
+			mul *= atoi(argv[i]);
+		}
+		printf("%d\n", mul);
 	}
-	printf("%d\n", mul);
-
 	return (0);
 }
