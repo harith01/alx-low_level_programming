@@ -19,7 +19,7 @@ C
 
 _For this project, we expect you to look at this concept:_
 
-*   [C static libraries](https://intranet.alxswe.com/concepts/61)
+   [C static libraries](https://intranet.alxswe.com/concepts/61)
 
 Resources
 ---------
