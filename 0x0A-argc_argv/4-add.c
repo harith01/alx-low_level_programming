@@ -31,7 +31,7 @@ int check_digit(char *s)
  * main - Prints the sum of the arguments
  * @argc: argument count
  * @argv: argument vector
- * Return: Sum of argv 
+ * Return: Sum of argv
  */
 
 int main(int argc, char *argv[])
