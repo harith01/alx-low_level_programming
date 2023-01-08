@@ -29,8 +29,9 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
+		print("%d\n", sum);
 	}
-	return (sum);
+	return (0);
 }
 
 /**
