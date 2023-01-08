@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int i, j, length, sum;
 	char str[];
 
-	if (argc == 1)
+	if (argc < 2)
 		printf("0\n");
 	else
 	{
