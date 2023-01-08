@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <ctype.h>
+#include "main.h"
+
+/**
+ * main - adds positive numbers
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: Sum of positive arguments
+ */
+
+int main(int argc, char *argv[])
+{
+	int i;
+	int sum = 0;
+
+	if (argc == 1)
+		printf("%d\n", 0);
+	else
+	{
+		for (i = 1; i < argc; i++)
+		{
+			if (check_number(argv[i] == 1))
+				sum += atoi(argv[i]);
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+	}
+	return (sum);
+}
+
+/**
+ * check_number - check if a string contains a non-digit
+ * @c: the string
+ * Return: 1 if string does not contain a non digit, 0 otherwise
+ */
+int check_number(char *c)
+{
+	int a, i = 0;
+
+	while (c[i])
+	{
+
+		if (isdigit(c[i]) != 0)
+			a = 1;
+		else
+		{
+			a = 0;
+			break;
+		}
+		i++;
+	{
+	return (a);
+}
