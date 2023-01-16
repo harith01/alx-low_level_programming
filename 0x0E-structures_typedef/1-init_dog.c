@@ -7,11 +7,11 @@
  * @name: name
  * @age: age
  * @owner: owner
+ * Return: Nothingi
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d = malloc(sizeof(struct dog));
 	if (d == NULL)
 		return (NULL);
 	d->name = name;
