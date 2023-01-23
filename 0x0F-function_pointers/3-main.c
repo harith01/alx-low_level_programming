@@ -6,7 +6,7 @@
 /**
  * main - perform mathematical operations
  * @argc: argument count
- * @argv; argument vector
+ * @argv: argument vector
  * Return: result of operation
  */
 
