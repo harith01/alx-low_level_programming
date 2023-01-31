@@ -4,7 +4,7 @@
 
 
 /**
- * listint_len - gives number of elements 
+ * listint_len - gives number of elements
  * in a linked list
  * @h: pointer to the first element
  * Return: the number of elements
