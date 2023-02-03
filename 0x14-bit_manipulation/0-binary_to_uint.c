@@ -7,10 +7,9 @@
 * Return: binary equivalent of b
 */
 
-unsignedint binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int decimal;
-	int len = _strlen(b) - 1;
 
 	if (!b)
 		return (0);
@@ -21,7 +20,6 @@ unsignedint binary_to_uint(const char *b)
 		if (*b != '0' && *b != '1')
 			return (0);
 		decimal = decimal * 2 +  (*b - '0');
-		len--;
 		b++;
 	}
 	return (decimal);
