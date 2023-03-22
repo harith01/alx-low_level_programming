@@ -12,7 +12,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *current_node, *next_node, *new_node;
 	unsigned int current_pos;
-	
+
 	if (h == NULL)
 		return (NULL);
 	if (idx == 0)
